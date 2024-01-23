@@ -1,0 +1,37 @@
+{
+  "name": "simplest-react-app",
+  "version": "1.0.0",
+  "description": "A simple boilerplate for your react application. Comes with React, ReactDOM and parcel. Useful for a simple and fast react dev setup.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf .parcel-cache .dist && npx parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshtrikha/simplest-react-app.git"
+  },
+  "keywords": [
+    "simplest-react-app",
+    "react-app",
+    "simple-react-app",
+    "react-dom",
+    "reactdom",
+    "react",
+    "parcel"
+  ],
+  "author": "Akshit Trikha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshtrikha/simplest-react-app/issues"
+  },
+  "homepage": "https://github.com/akshtrikha/simplest-react-app#readme",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
